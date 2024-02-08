@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“Ang Misteryo ng Mahiwagang Bahay na Puno” (Maikling Kwentong Pambata na May Aral) </title>
+    <link rel="icon" href="img/E.jpg" type="image/x-icon">
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body{
+        background-color: #e6ccb2;
+        overflow-x: hidden;
+      }
+      body.dark-mode {
+        background-color: #222;
+        color: #e6ccb2;
+      }
+      .kids7 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        padding: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: justify;
+        font-size: large;
+      }
+      h1{
+        text-align: center;
+      }
+      h2{
+        text-align: center;
+      }
+      .first-letter {
+        font-size: 50px;
+        font-family: serif;
+        font-weight: bolder;
+      }
+      .action-buttons {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .action-button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #darkModeToggle {
+        background-color: #000;
+        color: #e6ccb2;
+      }
+      #addToLibraryButton {
+        background-color: #000;
+        color: #e6ccb2  ;
+      }
+      body.dark-mode #darkModeToggle {
+        background-color: #e6ccb2;
+        color: #000;
+      }
+      body.dark-mode #addToLibraryButton {
+        background-color: #e6ccb2;
+        color: #000  ;
+      }
+    </style>
+
+</head>
+<body>
+   <!-- Action Buttons -->
+   <div class="action-buttons">
+       <!-- Dark Mode Toggle Button -->
+       <button id="darkModeToggle" class="action-button" onclick="toggleDarkMode()"> ☽</button>
+       <!-- Add to Library Button -->
+       <button id="addToLibraryButton" class="action-button" onclick="addToLibrary('Ang Misteryo ng Mahiwagang Bahay na Puno')">+🕮</button>
+   </div>
+
+   <div class="kids7">
+    <h1>“Ang Misteryo ng Mahiwagang Bahay na Puno”</h1>
+    <h2>Maikling Kwentong Pambata na May Aral</h2>
+    <h2>by: Sanaysay Editorial Team</h2> <br> <br>
+    <p><span class="first-letter">N</span>oong unang panahon, sa isang maliit na bayan, may isang kapatid na lalaki at babae na nagngangalang Ben at Lily.
+    </p> <br>
+
+    <p>Mahilig sila sa pakikipagsapalaran at paggalugad ng mga bagong bagay.</p> <br>
+
+    <p>Isang maaraw na araw, napadpad sila sa isang misteryosong treehouse sa gitna ng kagubatan.</p> <br>
+
+    <p>Ang treehouse ay hindi ordinaryong treehouse. Mayroon itong mahiwagang glow at mukhang napakatanda.</p> <br>
+
+    <p>Napukaw ang pag-usisa sa kanilang mga mata nang magpasya silang pumasok sa treehouse at tingnan kung ano ang mga sikreto nito.
+    </p> <br>
+
+    <p>Pagpasok pa lang nila sa loob, yumanig ang treehouse.</p> <br>
+
+    <p>Umikot-ikot ito, dinadala sila sa isang hindi kapani-paniwalang paglalakbay sa oras at espasyo.</p> <br>
+
+    <p>Namangha sina Ben at Lily pero medyo natakot din.</p> <br>
+
+    <p>Nang sa wakas ay tumigil ang treehouse, natagpuan nila ang kanilang sarili sa ibang mundo.</p> <br>
+
+    <p>Ito ay isang lupain na puno ng mga nagsasalitang hayop, makukulay na bulaklak, at kumikinang na mga ilog. Ang lahat ay tila napaka-magical.
+    </p> <br>
+
+    <p>Habang ginalugad nila ang kaakit-akit na lupain, nakarinig sila ng mahinang paghingi ng tulong.</p> <br>
+
+    <p>Sinundan nila ang tunog at natuklasan ang isang maliit, nawawalang unicorn na pinangalanang Sparkle.</p> <br>
+
+    <p>Naligaw ng landas si Sparkle at hindi niya mahanap ang kanyang tahanan.</p> <br>
+
+    <p>Alam nina Ben at Lily na kailangan nilang tulungan si Sparkle.</p> <br>
+
+    <p>Nagsanib-sanhi sila at nagpasyang lutasin ang misteryo ng magic treehouse at humanap ng paraan para mapauwi si Sparkle.
+    </p> <br>
+
+    <p>Naghanap sila ng mataas at mababa, humihingi ng mga pahiwatig sa matatalinong hayop.</p> <br>
+
+    <p>Sinabi sa kanila ng mabait na kuwago ang tungkol sa isang mahiwagang susi na nakatago sa kalaliman ng kagubatan.</p> <br>
+
+    <p>Maaaring ma-unlock ng key na ito ang mga lihim na kapangyarihan ng treehouse at mapauwi si Sparkle.</p> <br>
+
+    <p>Taglay ang determinasyon sa kanilang mga puso, sina Ben, Lily, at Sparkle ay nakipagsapalaran sa kagubatan.
+    </p> <br>
+
+    <p>Sinunod nila ang utos ng kuwago at nakita nila ang mahiwagang susi na nakatago sa likod ng talon. Kumikislap itong may gintong kinang.
+    </p> <br>
+
+    <p>Tuwang-tuwa silang bumalik sa treehouse at ipinasok ang susi sa isang espesyal na kandado.</p> <br>
+
+    <p>Biglang nagsimulang umungol at kumikinang ang treehouse. Handa na itong pauwiin si Sparkle.</p> <br>
+
+    <p>Sa isang maliwanag na kislap ng liwanag, nawala si Sparkle sa treehouse at bumalik sa kanyang mahiwagang lupain.</p> <br>
+
+    <p>Magkahalong saya at lungkot ang naramdaman nina Ben at Lily.</p> <br>
+
+    <p>Malungkot silang nagpaalam ngunit natutuwa silang natulungan si Sparkle na mahanap ang daan pabalik.</p> <br>
+
+    <p>Paglabas nila sa treehouse, nagsimula itong umikot muli.</p> <br>
+
+    <p>Sa pagkakataong ito, ibinalik sila nito sa sarili nilang mundo, kung saan sila nagsimula.</p> <br>
+
+    <p>Hindi sila makapaniwala sa kamangha-manghang pakikipagsapalaran na kanilang naranasan.</p> <br>
+
+    <p>Mula sa araw na iyon, inalagaan nina Ben at Lily ang mga alaala ng kanilang mahiwagang paglalakbay.</p> <br>
+
+    <p>Alam nila na ang magic treehouse ay palaging naroroon, handang dalhin sila sa mas hindi kapani-paniwalang mga pakikipagsapalaran kahit kailan nila gusto.
+    </p> <br>
+
+    <p>At kaya, ang kuwento ng misteryo ng magic treehouse ay naging isang alamat, na ibinulong sa mga bata na naniniwala sa kapangyarihan ng imahinasyon at mga kababalaghan na matatagpuan sa mundo sa kanilang paligid.
+    </p> <br>
+
+
+      <!-- Add to Library Button -->
+</div>
+    </div>
+
+    <script>
+         // Function to toggle dark mode
+        function toggleDarkMode() {
+            var body = document.body;
+            body.classList.toggle('dark-mode');
+
+            // Toggle button text based on mode
+            var darkModeToggle = document.getElementById('darkModeToggle');
+            if (body.classList.contains('dark-mode')) {
+                darkModeToggle.textContent = ' ☀';
+            } else {
+                darkModeToggle.textContent = ' ☽';
+            }
+        }
+
+        // add a book to the library
+function addToLibrary(bookTitle) {
+    // Get existing library data from local storage
+    var libraryData = localStorage.getItem('library');
+
+    var library = [];
+    if (libraryData) {
+        library = JSON.parse(libraryData);
+    }
+
+    // Check if the library has reached the maximum limit (10 books)
+    if (library.length >= 10) {
+        alert('You have reached the maximum limit of 10 books in your library.');
+        return; // Stop execution if the limit is reached
+    }
+
+    library.push(bookTitle);
+
+    localStorage.setItem('library', JSON.stringify(library));
+
+    alert('The book has been added to your library!');
+
+    displayLibrary();
+}
+
+        
+    </script>
+</body>
+</html>
